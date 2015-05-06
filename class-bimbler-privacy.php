@@ -116,7 +116,7 @@ class Bimbler_Privacy {
 						
 						$content .= '<div class="bimbler-alert-box notice"><span>Notice: </span>You must be logged in to view this page.</div>';
 						
-						error_log ('Category ride and user not logged-in - returning error message.');
+						//error_log ('Category ride and user not logged-in - returning error message.');
 						
 						return $content;
 					}
